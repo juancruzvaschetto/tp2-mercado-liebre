@@ -1,0 +1,41 @@
+:root{
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris-oscuro: #666;
+    --Gris-claro: #ebebeb;
+    --Verde: #39b54a;
+}
+
+
+.reg-form{
+    text-align: center;
+    background-color: var(--Gris-claro);
+}
+.reg-form h4{
+    padding-bottom: 10px;
+}
+.reg-form div{
+    padding: 10px;
+}
+.reg-form input{
+    padding: 5px;
+}
+.reg-botones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.reg-enviar button{
+    background-color:var(--Celeste);
+    color: #fff;
+    padding: 10px 60px 10px 60px;
+    
+
+}
+.reg-borrar button{
+    background-color:var(--Celeste);
+    color: #fff;
+    padding: 10px 60px 10px 60px;
+}
